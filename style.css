@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(to bottom right, pink, blue);
+    background-clip: padding-box;
+}
+
+#main{
+    height: 125px;
+}
+
+#registration-heading{
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    top: 17%;
+    left: 41%
+}
+
+#registrationForm{
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#topRegistForm{
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+#registrationForm input[name="userFirstName"],
+#registrationForm input[name="userLastName"]
+{
+    width: 240px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+}
+
+#registrationForm input[name="userEmail"],
+#registrationForm input[name="userPassword"],
+#registrationForm input[name="userRepPassword"] {
+    width: 528px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#botRegistForm {
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    width: 350px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom right, pink, blue);
+    background-clip: padding-box;
+    border: none;
+}
